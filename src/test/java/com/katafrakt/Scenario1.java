@@ -49,8 +49,6 @@ public class Scenario1 {
         String stars= filmPage.getStars();
         String year= filmPage.getYear();
 
-        System.out.println("Director:"+director+" Writer:"+writer+" Stars:"+stars);
-
         webDriver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
         MainPage mainPage1 = filmPage.toMainMenu();
 
@@ -89,8 +87,6 @@ public class Scenario1 {
         String writer= filmPage.getWriter();
         String stars= filmPage.getStars();
         String year= filmPage.getYear();
-
-        System.out.println("Director:"+director+" Writer:"+writer+" Stars:"+stars);
 
         webDriver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
         MainPage mainPage1 = filmPage.toMainMenu();
